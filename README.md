@@ -37,6 +37,7 @@ Včasih pride prav značka <kbd>kbd</kbd>  za tipke. Značko uporabimo takole:
 2. [Računalniški sistemi, storitve in oprema za študente ](https://ucilnica.fmf.uni-lj.si/mod/page/view.php?id=51619)
 3. [Zapiski in vaje za Računalniški praktikum](https://racunalniski-praktikum.github.io/)
 4. [Dokumentacija za Markdown na GitHubu ](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)- VSCode paleta ukazov: <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> (🍎 <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd>)
+5. [Urnik FMF](https://urnik.fmf.uni-lj.si/)
 - Skok na začetek vrstice: <kbd>Home</kbd> (🍎 <kbd>Cmd</kbd>+<kbd>←</kbd>)
 - Premik za eno besedo naprej: <kbd>Ctrl</kbd>+<kbd>→</kbd> (🍎 <kbd>Option</kbd>+<kbd>→</kbd>)
 - Brisanje vrstice: <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>K</kbd> (🍎 <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>K</kbd>)
