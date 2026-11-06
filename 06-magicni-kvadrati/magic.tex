@@ -203,11 +203,14 @@ Preprost račun pokaže, da je konstanti ?? analogna konstanta
 % - napis nad tabelo: Število različnih normalnih magičnih kvadratov
 % - oznaka: table:stevila
 % Začetek tabele
-      točna vrednost približek
-      red 1 2 3 4 5 6
+\begin{tabular}{|l|c|c|c|c|c|c|}
+   \hline
+   &\multicolumn{5}{|c|}{točna vrednost}&približek \\\hline
+      red & 1 & 2 & 3 & 4 & 5 & 6 \\\hline
       % Decimalno vejico v matematičnem načinu zapišite kot {,},
       % sicer jo LaTeX izpiše kot ločilo, s presledkom za njo.
-      število kvadratov 1 0 1 880 275305224 !!
+      število kvadratov & 1 & 0 &1 & 880 & 275305224 & !! \\\hline
+\end{tabular}
 % Konec tabele
 
 Vse normalne magične kvadrate reda 4 je oštevilčil Frénicle de Bessy
