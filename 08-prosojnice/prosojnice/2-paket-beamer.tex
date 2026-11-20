@@ -6,11 +6,11 @@
 
 	Za prosojnice je značilna uporaba okolja \texttt{frame},
 	s katerim definiramo posamezno prosojnico,
-	%
+	\pause
 	postopno odkrivanje prosojnic,
-	%
+	\pause
 	ter nekateri drugi ukazi, ki jih najdemo v paketu \texttt{beamer}.
-	%
+	\pause
 	\begin{exampleblock}{Primer}
 		Verjetno ste že opazili, da za naslovno prosojnico niste uporabili
 		ukaza \texttt{maketitle}, ampak ukaz \texttt{titlepage}.
@@ -20,12 +20,17 @@
 \begin{frame}{Poudarjeni bloki}
 	% Naloga 2.3.2:
 	% Oblikujte poudarjena bloka z opombo in opozorilom.
-
-		Okolja za poudarjene bloke so \texttt{block}, \texttt{exampleblock} in \texttt{alertblock}.
-
-		Začetek poudarjenega bloka (ukaz \texttt{begin}) vedno sprejme 
+\begin{block}{Opomba}
+	Okolja za poudarjene bloke so \texttt{block}, \texttt{exampleblock} in \texttt{alertblock}.
+\end{block}
+\begin{alertblock}{Opozorilo!}
+	Začetek poudarjenega bloka (ukaz \texttt{begin}) vedno sprejme 
 		dva argumenta: okolje in naslov bloka.
 		Drugi argument (za naslov) je lahko prazen. 
+\end{alertblock}
+		
+
+		
 
 \end{frame}
 
@@ -39,6 +44,7 @@
 	   Praštevil je neskončno mnogo.
 	\end{izrek}
 	\begin{proof}
+		\begin{itemize} [<+->] 
 	   Denimo, da je praštevil končno mnogo.
 		% Z neobveznim argumentom [<+->] okolja itemize določimo,
 		% da se elementi naštevanja odkrivajo postopoma.
